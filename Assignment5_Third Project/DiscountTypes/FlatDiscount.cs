@@ -1,5 +1,11 @@
 ﻿namespace Assignment5_Third_Project.DiscountTypes
 {
+    /*
+    2. Implement the following concrete discount classes:
+        o FlatDiscount:
+            ▪ Accepts a fixed amount to be deducted (e.g., $50).
+            ▪ Formula: Discount Amount=Flat Amount×min(Quantity,1)
+    */
     internal class FlatDiscount : Discount
     {
         #region Prop

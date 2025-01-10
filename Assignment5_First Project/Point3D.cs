@@ -1,7 +1,8 @@
 ﻿namespace Assignment5_First_Project
 {
 
-
+    // 1-Define 3D Point Class and the basic Constructors (use chaining in constructors).
+    // 6-Implement ICloneable interface to be able to clone the object.
     internal class Point3D : IComparable<Point3D>, ICloneable
     {
         public int X { get; set; }
@@ -23,6 +24,7 @@
         {
         }
 
+        //2-Override the ToString Function to produce this output:
         public override string ToString()
         {
             return $"Point Coordinates: ({X}, {Y}, {Z})";

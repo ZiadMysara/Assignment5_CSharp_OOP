@@ -7,6 +7,7 @@
     */
     internal class Program
     {
+        //Call each method in Main ().
         static void Main(string[] args)
         {
             int X = 10;

@@ -38,11 +38,13 @@
 
             Point3D P1 = new Point3D();
             Point3D P2 = new Point3D();
+            // 3- Read from the User the Coordinates for 2 points P1, P2 (Check the input using try Pares, Parse, Convert).
             ReadPoint(P1);
             ReadPoint(P2);
             Console.WriteLine(P1.ToString()); //no boxing here
             Console.WriteLine(P2.ToString());
 
+            // 4-Try to use ==
             if (P1 == P2) // it will compare the references not the values
             {
                 Console.WriteLine("P1 and P2 are equal");
@@ -52,6 +54,7 @@
                 Console.WriteLine("P1 and P2 are not equal");
             }
 
+            //5- Define an array of points and sort this array based on X & Y coordinates.
             Point3D[] points = new Point3D[5];
             points[0] = new Point3D(5, 5, 5);
             points[1] = new Point3D(3, 3, 3);
