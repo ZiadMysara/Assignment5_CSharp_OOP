@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
+# Ignore Demo project
+E:/desktop/MyCareer/Route/Eng Ahmed Nasr/03 C# OOP/Session 05/CS/Demo/
+
 # User-specific files
 *.rsuser
 *.suo
@@ -361,3 +365,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
