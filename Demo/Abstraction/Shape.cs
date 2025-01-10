@@ -12,7 +12,7 @@
 
         public decimal Dim02 { get; set; }
 
-        public decimal Perimeter { get; set; }
+        public abstract decimal Perimeter { get; }
 
 
         // Abstract Method
