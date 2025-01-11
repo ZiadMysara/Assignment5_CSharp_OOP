@@ -2,9 +2,8 @@
 {
     internal class Circle : Shape
     {
-        public Circle(int radius)
+        public Circle(int radius) : base(radius, radius)
         {
-            Dim01 = Dim02 = radius;
         }
         public override decimal Perimeter
         {

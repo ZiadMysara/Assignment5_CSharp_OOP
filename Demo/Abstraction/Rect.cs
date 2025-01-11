@@ -10,10 +10,8 @@
             }
         }
 
-        public Rect(decimal dimo01, decimal dimo02)
+        public Rect(decimal dimo01, decimal dimo02) : base(dimo01, dimo02)
         {
-            Dim01 = dimo01;
-            Dim02 = dimo02;
         }
 
         //public override decimal CalcArea()

@@ -10,9 +10,8 @@
             }
         }
 
-        public Square(int Dim)
+        public Square(int Dim) : base(Dim, Dim)
         {
-            Dim01 = Dim02 = Dim;
         }
 
         //public override decimal CalcArea()

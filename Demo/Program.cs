@@ -8,9 +8,14 @@ namespace Demo
     internal class Program
     {
 
+        private static void drawShape(IDraw2D shape)
+        {
+            shape.Draw();
+        }
+
         static void Main(string[] args)
         {
-            #region Abstract
+            #region Abstraction [Abstract Class, Abstract Method, Abstract property]
 
             //Shape s = new Shape(); // can't create instance of abstract class
             //RectSquareBase rs = new RectSquareBase(); // can't create instance of abstract class
@@ -38,9 +43,11 @@ namespace Demo
 
             // shape can be Rect, Square, Circle, ... etc
 
+            drawShape(shape);
 
 
             #endregion
+
 
             #region Note
             /// Abstract Class
@@ -54,6 +61,10 @@ namespace Demo
             // if only get exist i have to add get only, i can't add set
 
             // Interface is a contract between the class and the outside world to provide a specific behavior.
+
+            // Abstract Class can have constructors, interfaces can't have constructors
+
+
 
             #endregion
 
