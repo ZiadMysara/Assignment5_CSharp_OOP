@@ -8,14 +8,18 @@
     abstract class Shape
     {
 
+
         public decimal Dim01 { get; set; }
 
         public decimal Dim02 { get; set; }
 
+
+        //! don't say something like this in interview
+        // Abstract Property like virtual property but without implementation
         public abstract decimal Perimeter { get; }
 
-
-        // Abstract Method
+        //! don't say something like this in interview
+        // Abstract Method like virtual method but without implementation
         public abstract decimal CalcArea();
     }
 
